@@ -37,15 +37,27 @@
         }
 
         iframe {
-            width: 900px; 
-            height: 506px; 
+            width: 1100px; 
+            height: 619px;
             border: none;
         }
 
-        @media (max-width: 950px) {
+        .video-description {
+            max-width: 1100px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #cccccc;
+        }
+
+        @media (max-width: 1150px) {
             iframe {
                 width: 90vw;
                 height: 50.6vw;
+            }
+            .video-description {
+                width: 90vw;
             }
         }
     </style>
@@ -58,11 +70,16 @@
 
     <div class="video-container">
         <iframe 
-            src="https://www.youtube.com/embed/kBkNWiByETI"
+            src="https://www.youtube.com/embed/kBkNWiByETI" 
             title="YouTube video player" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen>
         </iframe>
+    </div>
+
+    <div class="video-description">
+        This level is a disgrace to brakence
+        murray wants to make some eggs for floritide aswell
     </div>
 
 </body>
