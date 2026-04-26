@@ -1,16 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>seeyuh</title>
-  </head>
-  <body>
-    <body style="background-color:black;">
-      <h1 style="color:red;">Top 3 layouts</h1>
-      <h1 style="color:red;">1. High on hope</h1>
-      <h1 style="color:red;">1. High on hope</h1>
-      <img src = "https://cdn.discordapp.com/attachments/1351925475697491979/1385280081131474964/Z.png?ex=68557e1c&is=68542c9c&hm=717b4a07fb3ba8d6cfac25042921a3b2d282dc30705b9db17e874455f9b5c204&" style="width:300px;">
-      <a href = "https://www.youtube.com/watch?v=unsngz9XYRI" style="color:white;" >high one hope</a>
-      <img src = "https://cdn.discordapp.com/attachments/1376253593547444354/1385280419347431575/2Q.png?ex=68557e6d&is=68542ced&hm=c777b6081a34beeaff7822b97cff09f10f9f4fa73937b5ee642b2ad1960163a3&" style="width:100px;">
-  </body>
-  
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            margin: 0;
+        }
+
+        h1 {
+            color: #ff0000;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .video-container {
+            margin: 20px 0;
+            border: 2px solid #333;
+            box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.2);
+            line-height: 0;
+        }
+
+        .layout-title {
+            font-size: 1.5rem;
+            color: #ff4444;
+            margin-top: 30px;
+        }
+
+        .decorative-img {
+            border-radius: 8px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Top 3 Layouts</h1>
+
+    <div class="layout-title">1. High on Hope</div>
+
+    <div class="video-container">
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/unsngz9XYRI" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 20px;">
+        <img src="https://cdn.discordapp.com/attachments/1351925475697491979/1385280081131474964/Z.png?ex=68557e1c&is=68542c9c&hm=717b4a07fb3ba8d6cfac25042921a3b2d282dc30705b9db17e874455f9b5c204&" 
+             width="150" class="decorative-img" alt="layout preview">
+        
+        <img src="https://cdn.discordapp.com/attachments/1376253593547444354/1385280419347431575/2Q.png?ex=68557e6d&is=68542ced&hm=c777b6081a34beeaff7822b97cff09f10f9f4fa73937b5ee642b2ad1960163a3&" 
+             width="100" class="decorative-img" alt="icon">
+    </div>
+
+</body>
 </html>
